@@ -2,10 +2,10 @@
 
 file = open('moby-dick.txt', 'r')
 
-data = file.read().replace(" ","")
+data = file.read()
 
-number_of_characters = len(data)
+words = data.split()
 
-print(number_of_characters)
+print("number of words in the text file 'Moby Dick is", len(words))
 
 file.close()
