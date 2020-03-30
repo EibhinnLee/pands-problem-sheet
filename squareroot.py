@@ -1,11 +1,11 @@
 # Eibhinn Lee
 # Function for squareroot
-import math
 
-num = 14.5
+#Jonathan Harper
+def sqrt (v):
+    ans= v**(0.5)
+    return ans
 
-sqrt = math.sqrt(num)
-
-print('sq root of {} is {}'.format(num, sqrt))
-
+v = float(input("enter value to be rooted:"))
+print(sqrt(v))
 
