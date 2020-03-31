@@ -11,6 +11,6 @@ with open(file, 'r') as f:
             for letter in i:
                 if(letter==l):
                     k=k+1
-print("Occurrences of the letter e in Moby Dick are:")
-print(k)
+print("Occurrences of the letter e in Moby Dick are:", k)
+
 
