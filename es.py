@@ -1,11 +1,16 @@
 # Eibhinn Lee
 
-file = open('moby-dick.txt', 'r')
+file = "moby-dick.txt"
+l=("e")
+k = 0
 
-data = file.read()
+with open(file, 'r') as f:
+    for line in f:
+        words = line.split()
+        for i in words:
+            for letter in i:
+                if(letter==l):
+                    k=k+1
+print("Occurrences of the letter e in Moby Dick are:")
+print(k)
 
-words = data.split()
-
-print("number of words in the text file 'Moby Dick is", len(words))
-
-file.close()
