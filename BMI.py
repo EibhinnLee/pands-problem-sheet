@@ -1,15 +1,15 @@
 # Eibhinn Lee
 # Calculating the BMI 
-# weight in KG
-# Height in CM
+# weight in Kg
+# Height in metres
 
 weight = 65
-height = 180
+height = 1.80
 
 # BMI = kg/metre sq
 # BMI = x
 
-x = 65/(1.8 * 1.8)
+x = weight/(height * height)
 
 print("BMI of a person 65kg and 1.8metres tall is",x)
 
