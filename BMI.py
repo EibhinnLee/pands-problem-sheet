@@ -3,13 +3,15 @@
 # weight in Kg
 # Height in metres
 
-weight = 65
-height = 1.80
+w = 65
+h = 1.80
 
 # BMI = kg/metre sq
+
+sqmetres = (h**2)
 # BMI = x
 
-x = weight/(height * height)
+x = (w/sqmetres)
 
-print("BMI of a person 65kg and 1.8metres tall is",x)
+print("BMI of a person 65kg and 180 centimeters tall is",x)
 
