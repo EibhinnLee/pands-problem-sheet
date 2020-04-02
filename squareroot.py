@@ -1,7 +1,7 @@
 # Eibhinn Lee
 # Function for squareroot
 
-#Jonathan Harper
+
 def sqrt (v):
     ans= v**(0.5)
     return ans
