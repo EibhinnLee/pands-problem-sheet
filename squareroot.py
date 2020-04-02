@@ -2,14 +2,14 @@
 # Function for squareroot
 # sq root of 14.5
 # variables
-n = 14.5
+x = 14.5
 m = int(input("Enter number of guesses: "))
-approx = (1/2)*n
+approx = (1/2)*x
 
 # for loop in range between 0 & no. of guesses
 for i in range (0,m):
     # Ist loop : better = (0.5) * (7.25+14.5/7.25)
-    better=(1/2) * (approx+n/approx)
+    better=(1/2) * (approx+x/approx)
     # new value for approx, loop continues until approx = better
     approx = better
     print(approx)
